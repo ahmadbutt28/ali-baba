@@ -1,0 +1,41 @@
+.item-grid-1 {     
+         grid-area: menu;
+         height: auto;
+         box-shadow: 0 0px 8px rgb(212 212 212 / 40%);
+        }
+.item-grid-2 { 
+      
+         background: url(/asset/images/products/slider.PNG);
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         height: 17rem;
+         grid-area: slider;
+         box-shadow: 0 0px 8px rgba(212, 212, 212, 0.4); }
+.item-grid-3 { height: auto;
+         grid-area: footer-images; 
+         box-shadow: 0 0px 8px rgba(212, 212, 212, 0.4);
+         align-items: center;
+         display: flex;
+        }
+
+.grid-container-h {
+  display: grid;
+  grid-template-areas:
+    'menu slider slider slider slider slider'
+    'menu footer-images footer-images footer-images footer-images footer-images';
+  grid-gap: 10px;
+  padding: 10px;
+  margin: 0rem 9rem 1rem 12rem;
+}
+
+.grid-container-h > div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border-radius: 1rem;
+}
+.item-grid-3 p{
+         font-size: 1rem;
+}

@@ -1,0 +1,42 @@
+.itemYear-1 { grid-area: img1;
+  background-color: #ffffff;
+         box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; }
+.itemYear-2 { grid-area: img2;
+  background-color: #ffffff;
+         box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; }
+.itemYear-3 { grid-area: img3;
+  background-color: #ffffff;
+         box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; }
+.itemYear-4 { grid-area: img4;
+  background-color: #ffffff;
+         box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; }
+.itemYear-4 { grid-area: img5;
+          background-color: #ffffff;
+                 box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; }
+        
+.grid-container-yearTrend {
+  display: grid;
+  grid-template-areas:
+
+    'img1 img2 img3 img4 img5';
+  grid-gap: 10px; 
+  margin: 0rem 10rem 0rem 15rem;
+}
+
+.grid-container-yearTrend > div {
+  background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 1rem;
+   margin: 0rem 0rem 0rem 0rem;
+}
+.grid-container-yearTrend >div> p{
+  font-size: 1rem;
+  text-align: left;
+  padding: 0rem 0rem 0rem 1rem;
+}
+.Year-Tren{
+  margin: 1rem 1rem 1rem -4rem;
+}
+#lft-vrtual-text{
+  margin-left: 17rem;
+  font-size: 2rem;
+}
